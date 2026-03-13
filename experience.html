@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experience | Zamratul Khaira</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #0f766e, #5eead4, #ccfbf1);
+    background-size: 300% 300%;
+    animation: gradientMove 12s ease infinite;
+    color: #333;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 50px;
+    background-color: rgba(15,118,110,0.9);
+}
+
+.logo {
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* EXPERIENCE */
+.experience {
+    max-width: 1100px;
+    margin: 100px auto;
+    padding: 50px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 26px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+}
+
+.exp-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.exp-header h2 {
+    font-size: 36px;
+    color: #0f766e;
+}
+
+.exp-group {
+    margin-bottom: 60px;
+}
+
+.exp-group h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #115e59;
+    border-left: 6px solid #0f766e;
+    padding-left: 15px;
+}
+
+.exp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.exp-card {
+    background: #f0fdfa;
+    padding: 25px;
+    border-radius: 18px;
+    transition: 0.3s;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.exp-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.exp-card img {
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 15px;
+}
+
+.exp-card h4 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.exp-card span {
+    font-size: 13px;
+    color: #0f766e;
+    font-weight: 600;
+}
+
+.exp-card ul{
+    padding-left:18px;
+    font-size:14px;
+    line-height:1.6;
+}
+
+.exp-card li{
+    margin-bottom:5px;
+}
+
+@media (max-width: 900px) {
+    .experience {
+        margin: 80px 20px;
+        padding: 35px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <h1 class="logo">ZK</h1>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="experience.html" class="active">Experience</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="experience">
+
+<div class="exp-header">
+<h2>Experience</h2>
+<p>Pengalaman magang, organisasi, kepanitiaan, dan kegiatan akademik</p>
+</div>
+
+
+<!-- MAGANG -->
+<div class="exp-group">
+
+<h3>A. Internship / Field Experience</h3>
+
+<div class="exp-grid">
+
+<div class="exp-card">
+<h4>Magang Pustakawan</h4>
+<span>MAN 2 Bukittinggi • Januari 2025 – Februari 2025</span>
+
+<ul>
+<li>Melayani siswa pada bagian sirkulasi perpustakaan.</li>
+<li>Mempromosikan SMART Madrasah Library ke kelas-kelas.</li>
+<li>Menginput data buku ke sistem automasi perpustakaan INLISLite.</li>
+<li>Menghubungkan sistem INLISLite menggunakan software Ngrok agar dapat diakses dari komputer lain maupun smartphone.</li>
+</ul>
+
+</div>
+
+<div class="exp-card">
+<h4>Magang Organisasi HIPMI</h4>
+<span>Bidang Public Relation</span>
+
+<ul>
+<li>Membantu kegiatan komunikasi dan publikasi organisasi.</li>
+<li>Mendukung kegiatan promosi dan hubungan eksternal organisasi.</li>
+<li>Berpartisipasi dalam kegiatan pengembangan kewirausahaan mahasiswa.</li>
+</ul>
+
+</div>
+
+</div>
+</div>
+
+
+<!-- ORGANISASI -->
+<div class="exp-group">
+
+<h3>B. Organization & Committee Experience</h3>
+
+<div class="exp-grid">
+
+<div class="exp-card">
+<h4>Preneur Fest 2023</h4>
+<span>Panitia Konsumsi</span>
+</div>
+
+<div class="exp-card">
+<h4>Family Gathering</h4>
+<span>Panitia Acara</span>
+</div>
+
+<div class="exp-card">
+<h4>MUBES IMATAR</h4>
+<span>Panitia Humas</span>
+</div>
+
+<div class="exp-card">
+<h4>Pelantikan IMATAR</h4>
+<span>Koordinator Humas</span>
+</div>
+
+<div class="exp-card">
+<h4>KBM 2023</h4>
+<span>Panitia Humas</span>
+</div>
+
+<div class="exp-card">
+<h4>PBAK 2024</h4>
+<span>Panitia Perlengkapan</span>
+</div>
+
+<div class="exp-card">
+<h4>KKN 51 Balun Pakan Rabaa Tangah</h4>
+<span>Sekretaris • 2025</span>
+</div>
+
+<div class="exp-card">
+<h4>Presenter Seminar Internasional</h4>
+<span>InCECiNs 2025</span>
+<p>Mempresentasikan karya ilmiah dalam konferensi internasional.</p>
+</div>
+
+</div>
+</div>
+
+</section>
+
+</body>
+</html>
